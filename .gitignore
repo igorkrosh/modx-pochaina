@@ -8,3 +8,5 @@ components
  
 custom.log
 error.log
+
+gulpfile.js

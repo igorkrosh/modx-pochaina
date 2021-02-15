@@ -1,0 +1,22 @@
+{
+  "name": "pochaina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorkrosh/modx-pochaina.git"
+  },
+  "author": "igor.krosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorkrosh/modx-pochaina/issues"
+  },
+  "homepage": "https://github.com/igorkrosh/modx-pochaina#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

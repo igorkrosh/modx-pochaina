@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="204 218 231 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.995" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b474da"/>
+      <stop offset="1" stop-color="#0ec9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.001" y1="0.499" x2="1.001" y2="0.504" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.008" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="logo_01" transform="translate(-630 -355)">
+    <path id="Union_1" data-name="Union 1" class="cls-1" d="M27.1,11.1A11.139,11.139,0,0,1,38.2,0a10.928,10.928,0,0,1,11,11.1,11.05,11.05,0,0,1-22.1,0Zm5-.1a6.1,6.1,0,1,0,6.1-6.1A6.061,6.061,0,0,0,32.1,11Zm63.5,9.4L95.1,18H84.2l-.5,2.4h-5L82.8,1.2H96.5l4.1,19.2ZM85.3,13h8.8L92.6,6H86.8ZM178,20.3l-.5-2.4H166.6l-.5,2.4h-5l4.1-19.2h13.7L183,20.3ZM167.7,13h8.8L175,6h-5.8Zm-16.3,7.3V13.2H138.9v7.1H134V1.1h4.9V8.3h12.5V1.1h4.9V20.3Zm-28.5,0V8L110.4,20.3h-5V1.1h5V13.5L122.9,1.1h4.9V20.3ZM69,20.3V13.4H58.8a7.341,7.341,0,0,1-7.3-7.3v-5h4.9v5a2.263,2.263,0,0,0,2.3,2.3H69V1.1h4.9V20.3Zm-51.5,0V6H4.9V20.3H0V1.1H22.4V20.3Z" transform="translate(882 594.1)"/>
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_8" data-name="Path 8" class="cls-2" d="M264,35h33v9l-33-6Z" transform="translate(570 573)"/>
+      <path id="Path_9" data-name="Path 9" class="cls-3" d="M268,25l7-3,7,3v7H268Z" transform="translate(570 573)"/>
+      <path id="Path_10" data-name="Path 10" class="cls-4" d="M292,0h-6l-1,32h8Z" transform="translate(570 573)"/>
+    </g>
+  </g>
+</svg>
