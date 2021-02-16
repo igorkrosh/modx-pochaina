@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     color: #000;
+    font-family: 'Circe', sans-serif;
 }
 
 *, ::after, ::before {
@@ -17,14 +18,14 @@ body
     margin-right: auto;
 }
 
-.logo
+.navbar .logo
 {
     width: 200px;
     display: flex;
     align-items: center;
 }
 
-.logo img
+.navbar .logo img
 {
     margin-bottom: 20px;
 }
@@ -135,4 +136,29 @@ body
 .menu .menu-link.dropdown-wrapper:hover .dropdown
 {
     max-height: 150px;
+}
+
+.section-main
+{
+    height: 600px;
+    background-image: url(../images/main-image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 50px solid #fff;
+    border-top: none;
+    padding: 50px;
+}
+
+.section-main .logo
+{
+    width: 110px;
+}
+
+.section-main h1
+{
+    font-size: 50px;
+    color: #fff;
+    width: 33%;
 }
