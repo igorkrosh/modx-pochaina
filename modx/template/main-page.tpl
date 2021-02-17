@@ -68,10 +68,34 @@
             </div>
         </div>
     </section>
-    <section class="section-residents">
+    <section class="section-arenda">
         <div class="container">
             <h1 class="worm-title black">Аренда</h1>
             <h2 class="subtitle">На Почаине можно провести свадьбу, мастер-класс, лекцию, фестиваль, вечеринку, концерт</h2>
+            <div class="arenda-wrapper">
+                <div class="arenda-item spases">
+                    <img src="assets/images/bg/arenda-item-prostranstvo.jpg" class="bg" alt="">
+                    <div class="content">
+                        <span class="title">Пространства</span>
+                        <span class="desc">Мастерские, студии, галереи, шоу-румы, офисы</span>
+                    </div>
+                    <div class="btn-wrapper">
+                        <a href="[[getResourceField? &id=`23` &field=`uri`]]" class="btn-simple">Подробнее</a>
+                    </div>
+                    <a class="link-bg" href="[[getResourceField? &id=`23` &field=`uri`]]"></a>
+                </div>
+                <div class="arenda-item offices">
+                    <img src="assets/images/bg/arenda-item-prostranstvo.jpg" class="bg" alt="">
+                    <div class="content">
+                        <span class="title">Площадки</span>
+                        <span class="desc">Для фестивалей, опен-эйров, концертов, вечеринок</span>
+                    </div>                    
+                    <div class="btn-wrapper">
+                        <a href="[[getResourceField? &id=`22` &field=`uri`]]" class="btn-simple">Подробнее</a>
+                    </div>
+                    <a class="link-bg" href="[[getResourceField? &id=`22` &field=`uri`]]"></a>
+                </div>
+            </div>
         </div>
     </section>
     [[$scripts]]
