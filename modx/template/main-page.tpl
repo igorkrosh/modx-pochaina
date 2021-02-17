@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="btn-wrapper">
-                <a class="btn-simple">Показать еще...</a>
+                <a href="[[getResourceField? &id=`2` &field=`uri`]]" class="btn-simple">Показать еще...</a>
             </div>
         </div>
     </section>

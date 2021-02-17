@@ -344,6 +344,7 @@ body
     border-image: linear-gradient(to right, rgba(14,201,255,1) 0%,rgba(180,116,218,1) 100%);
     border-image-slice: 1;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .afisha-feature-wrapper .afisha-feature img
@@ -415,6 +416,7 @@ body
     display: inline-block;
     transition: 0.5s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-simple:hover
