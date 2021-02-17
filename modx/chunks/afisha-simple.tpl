@@ -16,7 +16,6 @@
             [[clearTextFix?
                 &text=`[[+afisha.info]]`
             ]]
-            [[+afisha.featured]]
         </div>
         [[+afisha.place:isnot=`0`:then=`
             <span class="text">Место: </span>

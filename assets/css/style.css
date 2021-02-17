@@ -557,6 +557,7 @@ body
 {
     position: relative;
     padding-bottom: 40px;
+    background: #ebe6e4;
 }
 
 .section-arenda .arenda-wrapper
@@ -653,4 +654,184 @@ body
     width: 100%;
     height: 100%;
     z-index: 8;
+}
+
+.section-contacts
+{
+    background: #f7f7f7;
+}
+
+.section-contacts .contacts-wrapper .ymap
+{
+    height: 380px;
+    width: 60%;
+}
+
+.section-contacts .contacts-wrapper
+{
+    padding: 20px;
+    background: #fff;
+    display: flex;
+}
+
+.section-contacts .container
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-contacts .contacts-wrapper .contacts-item
+{
+    margin: auto;
+}
+
+.section-contacts .contacts-wrapper .contacts-item .pochaina
+{
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.section-contacts .contacts-wrapper .contacts-item .pochaina-center
+{
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.section-contacts .contacts-wrapper .contacts-item span
+{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+
+.section-contacts .contacts-wrapper .contacts-item span:last-of-type
+{
+    margin-bottom: 0;
+}
+
+.section-contacts .contacts-wrapper .contacts-item a
+{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.section-contacts .contacts-wrapper .contacts-item a:hover
+{
+    color: #b5506d;
+}
+
+section:last-of-type
+{
+    padding-bottom: 140px;
+}
+
+footer
+{
+    background-color: #1a1a1a;
+    padding: 80px 0;
+    position: relative;
+}
+
+footer::before
+{
+    content: '';
+    background: url(../images/logo-sign.svg) no-repeat;
+    background-size: contain;
+    width: 117px;
+    height: 162px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -124px;
+}
+
+footer .menu
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .menu .menu-link a
+{
+    color: #666;
+    transition: 0.3s;
+}
+
+footer .menu .menu-link:after
+{
+    content: none;
+}
+
+footer .menu .menu-link:hover a
+{
+    color: #b5506d;
+}
+
+.footer-row 
+{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom:  1px solid #666666;
+}
+
+.footer-row .col
+{
+    width: 33.33%;
+}
+
+.footer-row .col:nth-child(3)
+{
+    padding-left: 40px;
+}
+
+.footer-row .col .address
+{
+    color: #666666;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-row .col a
+{
+    display: block;
+}
+
+footer a
+{
+    color: #666666;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover
+{
+    color: #b5506d;
+}
+
+.copyright
+{
+    color: #666666;
+    font-weight: 300;
+}
+
+.footer-copyright
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footer-copyright span, .footer-copyright a
+{
+    width: 250px;
+    text-align: center;
 }
