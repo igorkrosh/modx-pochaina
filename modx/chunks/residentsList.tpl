@@ -1,0 +1,1 @@
+---==0||[[getResources? &parents=`5` &tpl=`residentsListItem` &tplLast=`residentsListItemLast` &hideContainers=`1`]]

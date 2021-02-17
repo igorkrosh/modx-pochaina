@@ -162,3 +162,262 @@ body
     color: #fff;
     width: 33%;
 }
+
+.worm-title
+{
+    font: 300 110px bebas, sans-serif;
+    letter-spacing: 0.9rem;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0 100px 0;
+    position: relative;
+    background-image: url(../images/bg/title-worm.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px 70px;
+    margin: 0;
+}
+
+.section-afisha
+{
+    background:rgb(181, 80, 109) url(../images/bg/main-afisha-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-afisha:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(181, 80, 109, 0.5);
+}
+
+.section-afisha .container
+{
+    position: relative;
+    z-index: 5;
+}
+
+.afisha-simple-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.afisha-simple-wrapper .afisha-simple
+{
+    display: flex;
+    align-items: center;
+    width: 750px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    min-height: 175px;
+}
+
+.afisha-simple-wrapper .afisha-simple .poster
+{
+    display: block;
+    width: 25%;
+    height: 100%;
+    
+    position: relative;
+    position: absolute;
+}
+
+.afisha-simple-wrapper .afisha-simple .poster img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.afisha-simple-wrapper .afisha-simple .desc
+{
+    width: 75%;
+    padding: 15px 30px;
+    padding-left: calc(25% + 30px);
+}
+
+.afisha-simple-wrapper .afisha-simple .tag
+{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.afisha-simple-wrapper .afisha-simple .title
+{
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+    text-decoration: none;
+    line-height: 23px;
+}
+
+.afisha-simple-wrapper .afisha-simple .desc .text
+{
+    color: #666;
+    line-height: 18px;    
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.afisha-simple-wrapper .afisha-simple .desc .text p
+{
+    margin-bottom: 0;
+}
+
+.afisha-simple-wrapper .afisha-simple .info
+{
+    padding: 15px;
+    width: 25%;
+    position: relative;
+    
+}
+
+.afisha-simple-wrapper .afisha-simple .info:before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    display: block;
+    border-left: 1px solid #ebe6e4;
+}
+
+.afisha-simple-wrapper .afisha-simple .rating
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(181,80,109,0.1);
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    color: #666666;
+    font-weight: 700;
+    text-align: center;
+    line-height: 29px;
+}
+
+.afisha-simple-wrapper .afisha-simple .info .text
+{
+    color: #000;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.afisha-simple-wrapper .afisha-simple .info .text p
+{
+    margin: 0;
+}
+
+.afisha-simple-wrapper .afisha-simple .info a
+{
+    color: #b5506d;
+    text-decoration: none;
+}
+
+.afisha-wrapper
+{
+    display: flex;
+}
+
+.afisha-feature-wrapper .afisha-feature
+{
+    width: 350px;
+    display: flex;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, rgba(14,201,255,1) 0%,rgba(180,116,218,1) 100%);
+    border-image-slice: 1;
+    position: relative;
+}
+
+.afisha-feature-wrapper .afisha-feature img
+{
+    width: 100%;
+}
+
+.afisha-feature-wrapper .afisha-feature .desc
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+}
+
+.afisha-feature-wrapper .afisha-feature .date
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0ec9ff;
+}
+
+.afisha-feature-wrapper .afisha-feature .title
+{
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+    line-height: 23px;
+}
+
+.afisha-feature-wrapper .afisha-feature .rating
+{
+    position: absolute;
+    top: -14px;
+    right: 20px;
+    background: #b474da;
+    color: #fff;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 29px;
+}
+
+.section-afisha .btn-wrapper
+{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.btn-simple
+{
+    border-color: #fff;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    min-height: 40px;
+    font-family: bebas, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-simple:hover
+{
+    background-color: #b5506d;
+}
