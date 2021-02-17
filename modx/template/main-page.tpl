@@ -41,6 +41,39 @@
             </div>
         </div>
     </section>
+    <section class="section-residents">
+        <div class="container">
+            <h1 class="worm-title black">Резиденты</h1>
+            <div class="residents-type">
+                [[getResources? 
+                    &parents=`5` 
+                    &hideContainers=`0`
+                    &depth=`0`
+                    &tpl=`@INLINE 
+                        <a href="[[+uri]]">[[+pagetitle]]</a>
+                    `
+                ]]
+            </div>
+            <div class="resident-wrapper">
+                [[getResources? 
+                    &parents=`5` 
+                    &hideContainers=`1`
+                    &tpl=`tpl.resident.item`
+                    &includeTVs=`1`
+                    &includeTVList=`resident.logo,resident.desc,resident.sort,resident.mainpage`
+                    &tvPrefix=``
+                    &sortbyTV=`resident.sort`
+                    &tvFilters=`resident.mainpage==1`
+                ]]
+            </div>
+        </div>
+    </section>
+    <section class="section-residents">
+        <div class="container">
+            <h1 class="worm-title black">Аренда</h1>
+            <h2 class="subtitle">На Почаине можно провести свадьбу, мастер-класс, лекцию, фестиваль, вечеринку, концерт</h2>
+        </div>
+    </section>
     [[$scripts]]
 </body>
 </html>

@@ -178,6 +178,11 @@ body
     margin: 0;
 }
 
+.worm-title.black
+{
+    color: #000;
+}
+
 .section-afisha
 {
     background:rgb(181, 80, 109) url(../images/bg/main-afisha-bg.jpg);
@@ -422,4 +427,120 @@ body
 .btn-simple:hover
 {
     background-color: #b5506d;
+}
+
+.section-residents
+{
+    background: #f7f7f7;
+}
+
+.residents-type
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.residents-type a
+{
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.residents-type a:last-of-type
+{
+    margin-right: 0;
+}
+
+.residents-type a:hover
+{
+    color: #b5506d;
+}
+
+.resident-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resident-item
+{
+    text-decoration: none;
+    background: #fff;
+    display: block;
+    width: 25%;
+    border: 1px solid #f8f8f8;
+    position: relative;
+}
+
+.resident-item .wrapper
+{
+    padding: 20px;
+
+}
+
+.resident-item .wrapper:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 10px solid;
+    border-image: linear-gradient(to right, rgba(14,201,255,1) 0%,rgba(180,116,218,1) 100%);
+    border-image-slice: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+.resident-item:hover .wrapper:before
+{
+    opacity: 1;
+}
+
+.resident-item .logo
+{
+    text-align: center;
+    height: 170px;
+}
+
+.resident-item .logo img
+{
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.resident-item .type
+{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.resident-item .title
+{
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.resident-item .desc
+{
+    color: #666666;
+    line-height: 18px;
+    text-align: center;
 }
