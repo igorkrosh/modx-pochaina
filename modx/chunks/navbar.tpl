@@ -32,6 +32,9 @@
                     <a href="#">Венчание на Почаине</a>
                 </div>
             </div>
+            <button class="btn-menu">
+                <span></span>
+            </button>
         </div>
     </div>
 </header>

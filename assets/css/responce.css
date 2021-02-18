@@ -1,0 +1,387 @@
+@media (max-width: 1200px)
+{
+    .container
+    {
+        max-width: 1024px;
+    }
+
+    .navbar .logo
+    {
+        width: 150px;
+    }
+
+    .navbar .logo img
+    {
+        margin-bottom: 15px;
+    }
+
+    .section-main h1
+    {
+        width: 55%;
+    }
+
+    .afisha-simple-wrapper .afisha-simple
+    {
+        width: 650px;
+    }
+
+    .afisha-feature-wrapper .afisha-feature
+    {
+        width: 300px;
+    }
+
+    .section-arenda .arenda-wrapper .arenda-item
+    {
+        width: 480px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 1024px)
+{
+    .container
+    {
+        max-width: 992px;
+    }
+
+    .section-arenda .arenda-wrapper .arenda-item
+    {
+        width: 460px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 996px)
+{
+    .container
+    {
+        max-width: 768px;
+    }
+
+    .btn-menu
+    {
+        display: block;
+    }
+
+    .navbar .menu
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        padding-top: 70px;
+        top: 0;
+        left: -100%;
+        background: #fff;
+        transition: 0.5s;
+        z-index: -1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar .menu.active
+    {
+        left: 0;
+    }
+
+    .navbar
+    {
+        height: 70px;
+    }
+
+    .section-afisha .afisha-wrapper
+    {
+        flex-direction: column;
+    }
+
+    .section-afisha .afisha-feature-wrapper
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 40px;
+    }
+
+    .menu .menu-link.dropdown-wrapper:before
+    {
+        content: none;
+    }
+
+    .menu .menu-link .dropdown
+    {
+        position: relative;
+        max-height: 100%;
+        width: auto;
+        text-align: center;
+        padding: 30px 0;
+        top: initial;
+        left: initial;
+    }
+
+    .menu .menu-link .dropdown:after
+    {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 25px;
+        background: linear-gradient(to bottom, rgba(180,116,218,1) 0%,rgba(18,199,254,1) 100%);
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+    }
+    .menu .menu-link .dropdown:before
+    {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 25px;
+        background: linear-gradient(to bottom, rgba(180,116,218,1) 0%,rgba(18,199,254,1) 100%);
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 6px;
+    }
+
+    .menu .menu-link.dropdown-wrapper
+    {
+        flex-direction: column;
+    }
+
+    .menu .menu-link, .menu .menu-link .dropdown a
+    {
+        padding: 0px;
+    }
+
+    .menu .menu-link a, .menu .menu-link .dropdown a
+    {
+        padding: 0;
+        padding-bottom: 8px;
+    }
+
+    .menu .menu-link .dropdown a
+    {
+        letter-spacing: 0.2rem;
+    }
+
+    .menu .menu-link:after
+    {
+        content: none;
+    }
+
+    .menu .menu-link .dropdown a:hover
+    {
+        background: #fff;
+        color: #000;
+    }
+
+    .afisha-simple-wrapper
+    {
+        margin-right: auto;
+    }
+
+    .resident-item
+    {
+        width: 33.333%;
+    }
+
+    .section-arenda .arenda-wrapper
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-arenda .arenda-wrapper .arenda-item
+    {
+        margin-bottom: 40px;
+    }
+
+    .section-contacts .contacts-wrapper
+    {
+        flex-direction: column;
+    }
+
+    .section-contacts .contacts-wrapper .ymap
+    {
+        width: 100%;
+    }
+
+    .section-contacts .contacts-wrapper .contacts-item
+    {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .container 
+    {
+        max-width: 540px;
+    }
+
+    .section-main h1
+    {
+        font-size: 30px;
+        width: 65%;
+    }
+
+    .section-main
+    {
+        height: 400px;
+    }
+
+    .section-main .logo
+    {
+        width: 80px;
+    }
+
+    .afisha-simple-wrapper .afisha-simple
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .afisha-simple-wrapper .afisha-simple .title
+    {
+        width: 16px;
+    }
+
+    
+
+    .afisha-simple-wrapper .afisha-simple .poster
+    {
+        position: initial;
+        width: 100%;
+        height: auto;
+    }
+
+    .afisha-simple-wrapper .afisha-simple .info, .afisha-simple-wrapper .afisha-simple .desc
+    {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .afisha-simple-wrapper .afisha-simple .rating
+    {
+        top: initial;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .afisha-simple-wrapper .afisha-simple .desc
+    {
+        padding-bottom: 0;
+    }
+
+    .afisha-feature-wrapper .afisha-feature
+    {
+        width: 100%;
+    }
+
+    .resident-item
+    {
+        width: 50%;
+    }
+
+    .section-contacts .container
+    {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer .menu
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-row
+    {
+        flex-direction: column;
+    }
+
+    .footer-row .col
+    {
+        width: 100%;
+    }
+
+    .footer-row .col:nth-child(3)
+    {
+        padding-left: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .footer-row .col:nth-child(2)
+    {
+        text-align: center;
+    }
+
+    .footer-row .col:nth-child(2) img
+    {
+        width: 300px;
+    }
+}
+
+@media(max-width: 576px)
+{
+    .container
+    {
+        width: 100%;
+    }
+
+    .worm-title
+    {
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .section-arenda .arenda-wrapper .arenda-item
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section-arenda .arenda-wrapper .arenda-item .title
+    {
+        font-size: 36px;
+    }
+
+    .section-arenda .arenda-wrapper .arenda-item .desc
+    {
+        font-size: 18px;
+    }
+
+    .section-main
+    {
+        border-width: 25px;
+        padding: 20px;
+    }
+
+    .section-main h1
+    {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .resident-item
+    {
+        width: 100%;
+    }
+
+    .section-contacts .contacts-wrapper .ymap
+    {
+        height: 270px;
+    }
+
+    .footer-copyright
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-copyright span, .footer-copyright a
+    {
+        padding-bottom: 15px;
+    }
+}
