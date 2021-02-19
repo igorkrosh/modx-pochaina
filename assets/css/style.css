@@ -4,6 +4,7 @@ body
     color: #000;
     font-family: 'Circe', sans-serif;
     padding-top: 90px;
+    background: #f7f7f7;
 }
 
 *, ::after, ::before {
@@ -909,4 +910,376 @@ footer a:hover
 .btn-menu.active:before
 {
     transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.page-title
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-viewer 
+{
+    position: relative;
+}
+
+.card-viewer .card:not(.active)
+{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.btn-card-switch
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+    position: relative;
+    background: none;
+    border: none;
+
+}
+
+.btn-card-switch::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, rgba(180,116,218,1) 0%,rgba(14,201,255,1) 100%);
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.btn-card-switch:hover::before, .btn-card-switch.active:before
+{
+    opacity: 1;
+}
+
+.btn-switcher-wrapper
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.residents-type .container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.residents-type a.active
+{
+    color: #b5506d;
+}
+
+.page-afisha-wrapper
+{
+    padding-top: 30px;
+    background: #f7f7f7;
+}
+
+.share .ya-share2__container.ya-share2__container_color-scheme_whiteblack .ya-share2__badge, .share .ya-share2__container.ya-share2__container_color-scheme_whiteblack .ya-share2__mobile-popup-badge
+{
+    background: none;
+    
+}
+
+.ya-share2__container_color-scheme_whiteblack .ya-share2__icon
+{
+    filter: invert(100%) sepia(3%) saturate(230%) hue-rotate(1deg) brightness(115%) contrast(91%);
+    transition: 0.3s;
+    
+}
+
+.ya-share2__container_color-scheme_whiteblack .ya-share2__item_service_vkontakte .ya-share2__icon:hover
+{
+    filter: invert(52%) sepia(70%) saturate(430%) hue-rotate(172deg) brightness(78%) contrast(92%);
+}
+
+.ya-share2__container_color-scheme_whiteblack .ya-share2__item_service_facebook .ya-share2__icon:hover
+{
+    filter: invert(33%) sepia(9%) saturate(3795%) hue-rotate(183deg) brightness(95%) contrast(88%);
+}
+
+.ya-share2__container_color-scheme_whiteblack .ya-share2__item_service_odnoklassniki .ya-share2__icon:hover
+{
+    filter: invert(56%) sepia(35%) saturate(3789%) hue-rotate(343deg) brightness(97%) contrast(89%);
+}
+
+.ya-share2__container_color-scheme_whiteblack .ya-share2__item_service_twitter .ya-share2__icon:hover
+{
+    filter: invert(68%) sepia(93%) saturate(4371%) hue-rotate(163deg) brightness(98%) contrast(101%);
+}
+
+.afisha-event-panel
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    padding: 0 30px;
+}
+
+.afisha-event-panel .share, .afisha-event-panel .links
+{
+    display: flex;
+    align-items: center;
+}
+
+.afisha-event-panel .btn-arrow-back
+{
+    width: 50px;
+    height: 22px;
+    display: inline-block;
+    background: url(../images/icons/arrow-back.svg) no-repeat;
+    transition: 0.3s;
+}
+
+.afisha-event-panel .links:hover .btn-arrow-back
+{
+    filter: invert(44%) sepia(57%) saturate(502%) hue-rotate(292deg) brightness(81%) contrast(96%);
+}
+
+
+.afisha-event-panel .links:hover 
+{
+    color: #b5506d;
+}
+
+.afisha-event-panel .links, .afisha-event-panel .share .text
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    color: #fff;
+    transition: 0.3s;
+    margin-right: 15px;
+}
+
+.page-afisha .afisha-event h1
+{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 0;
+}
+
+.page-afisha
+{
+
+}
+
+
+.page-afisha .afisha-event
+{
+    padding: 50px 30px 50px 100px;
+    background: #fff;
+    display: flex;
+}
+
+.page-afisha .afisha-event .text-wrapper
+{
+    padding-right: 40px;
+}
+
+.page-afisha .afisha-event .place
+{
+    font-family: 'Circe', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+
+.page-afisha .afisha-event .place a
+{
+    text-decoration: none;
+    transition: 0.5s;
+    color: #b5506d;
+}
+
+.afisha-gallery
+{
+    display: grid;
+    grid-auto-rows: 190px;
+    height: auto;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+
+.afisha-gallery .gallery-item img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.afisha-gallery .gallery-item
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.afisha-gallery .gallery-item:hover img
+{
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.afisha-current-events
+{
+    padding-top: 40px;
+}
+
+.afisha-current-events h1
+{
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.contacts-form-wrapper
+{
+    width: 800px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, rgba(14,201,255,1) 0%,rgba(180,116,218,1) 100%);
+    border-image-slice: 1;
+    padding: 40px 90px;
+    background: #fff;
+}
+
+.contacts-form-wrapper h1
+{
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.contacts-form-wrapper p
+{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+    margin: 0;
+    text-align: center;
+}
+
+.contacts-form-wrapper .contacts-form textarea
+{
+    max-width: 100%;
+    min-height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 18px;
+    font: inherit;
+}
+
+.contacts-form-wrapper .contacts-form
+{
+    margin-top: 30px;
+}
+
+.contacts-form-wrapper .contacts-form .form-group
+{
+    position: relative;
+}
+
+.contacts-form-wrapper .contacts-form .form-group label
+{
+    color: #666;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+}
+
+.contacts-form-wrapper .contacts-form .contacts-row
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-form-wrapper .contacts-form .contacts-row .form-group
+{
+    width: 45%;
+}
+
+.contacts-form-wrapper .contacts-form .form-group input
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    font-size: 18px;
+    color: #000;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    font: inherit;
+}
+
+.contacts-form-wrapper .contacts-form .form-group input:focus ~ label, .contacts-form-wrapper .contacts-form textarea:focus ~ label
+{
+    top: -20px;
+}
+
+.contacts-form-wrapper .contacts-form .form-group.textarea
+{
+    margin-top: 30px;
+}
+
+.btn-simple.black
+{
+    border-color: #000;
+    color: #000;
+}
+
+.btn-simple.black:hover
+{
+    border-color: #b5506d;
+    color: #fff;
+}
+
+.contacts-form-wrapper .contacts-form .form-footer
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contacts-form-wrapper .contacts-form .form-footer span
+{
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+
+.afisha-contacts-form 
+{
+    margin-top: 30px;
+}
+
+.afisha-contacts-form .container
+{
+    display: flex;
+    justify-content: center;
 }

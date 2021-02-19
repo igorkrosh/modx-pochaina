@@ -12,27 +12,25 @@
             <h1 class="worm-title">Афиша</h1>
             <div class="afisha-wrapper">
                 <div class="afisha-feature-wrapper">
-                    [[getResources? 
+                    [[pdoResources?
                         &parents=`2` 
                         &hideContainers=`1`
-                        &tpl=`tpl.afisha.feature`
-                        &includeTVs=`1`
-                        &includeTVList=`afisha.poster,afisha.rating,afisha.sort,afisha.mainpage,afisha.featured,afisha.date`
+                        &includeTVs=`afisha.poster,afisha.desc,afisha.info,afisha.place,afisha.rating,afisha.sort,afishaMainpage,afishaFeatured,afishaDate`
                         &tvPrefix=``
-                        &sortbyTV=`afisha.sort`
-                        &tvFilters=`afisha.mainpage==1,afisha.featured==1`
+                        &sortby=`afisha.sort`
+                        &tpl=`tpl.afisha.feature`
+                        &where=`{"0":{"afishaDate:IS":null,"OR:afishaDate:>":"[[!getDate]]"},"AND:afishaFeatured:=":"1","AND:afishaMainpage:=":"1"}`
                     ]]
                 </div>
                 <div class="afisha-simple-wrapper">
-                    [[getResources? 
+                    [[pdoResources?
                         &parents=`2` 
                         &hideContainers=`1`
-                        &tpl=`tpl.afisha.simple`
-                        &includeTVs=`1`
-                        &includeTVList=`afisha.poster,afisha.desc,afisha.info,afisha.place,afisha.rating,afisha.sort,afisha.mainpage,afisha.featured`
+                        &includeTVs=`afisha.poster,afisha.desc,afisha.info,afisha.place,afisha.rating,afisha.sort,afishaMainpage,afishaFeatured,afishaDate`
                         &tvPrefix=``
-                        &sortbyTV=`afisha.sort`
-                        &tvFilters=`afisha.mainpage==1,afisha.featured!==1`
+                        &sortby=`afisha.sort`
+                        &tpl=`tpl.afisha.simple`
+                        &where=`{"0":{"afishaDate:IS":null,"OR:afishaDate:>":"[[!getDate]]"},"AND:afishaFeatured:=":"0","AND:afishaMainpage:=":"1"}`
                     ]]
                 </div>
             </div>

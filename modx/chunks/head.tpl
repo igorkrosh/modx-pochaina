@@ -7,4 +7,5 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/responce.css">
+    <link rel="stylesheet" href="assets/css/lib/simpleLightbox.min.css">
 </head>

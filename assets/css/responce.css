@@ -89,12 +89,12 @@
         height: 70px;
     }
 
-    .section-afisha .afisha-wrapper
+    .afisha-wrapper
     {
         flex-direction: column;
     }
 
-    .section-afisha .afisha-feature-wrapper
+    .afisha-feature-wrapper
     {
         display: flex;
         flex-wrap: wrap;
@@ -210,6 +210,24 @@
     {
         margin-top: 40px;
     }
+
+    .page-afisha .afisha-event
+    {
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+    }
+
+    .page-afisha .afisha-event .info-wrapper
+    {
+        text-align: center;
+    }
+
+    .afisha-gallery
+    {
+        grid-template-columns: 25% 25% 25% 25%
+    }
+
+    
 }
 
 @media(max-width: 768px)
@@ -321,6 +339,33 @@
     {
         width: 300px;
     }
+
+    .btn-card-switch
+    {
+        line-height: initial;
+    }
+
+    .share .ya-share2__container_mobile.ya-share2__container_size_l .ya-share2__icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .afisha-event-panel
+    {
+        padding: 10px;
+    }
+
+    .afisha-gallery 
+    {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .contacts-form-wrapper
+    {
+        width: 100%;
+        padding: 30px;
+    }
 }
 
 @media(max-width: 576px)
@@ -383,5 +428,48 @@
     .footer-copyright span, .footer-copyright a
     {
         padding-bottom: 15px;
+    }
+
+    .afisha-event-panel .share .text, .afisha-event-panel .links .text
+    {
+        display: none;
+    }
+
+    .page-afisha .afisha-event .info-wrapper .poster img
+    {
+        width: 100%;
+    }
+
+    .page-afisha .afisha-event h1
+    {
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+
+    .afisha-gallery
+    {
+        grid-template-columns: 50% 50%;
+    }
+
+    .contacts-form-wrapper
+    {
+        padding: 10px;
+    }
+
+    .contacts-form-wrapper .contacts-form .contacts-row
+    {
+        flex-direction: column;
+    }
+
+    .contacts-form-wrapper .contacts-form .contacts-row .form-group
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contacts-form-wrapper .contacts-form .contacts-row .form-group:last-of-type
+    {
+        margin-bottom: 0;
     }
 }

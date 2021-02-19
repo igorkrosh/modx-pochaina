@@ -8,7 +8,7 @@
         <div class="text cke-wrapper">
             [[clearTextFix?
                 &text=`[[+afisha.desc]]`
-            ]]            
+            ]]          
         </div>
     </div>
     <div class="info">
