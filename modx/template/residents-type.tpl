@@ -10,13 +10,13 @@
     </section>
     <section class="residents-type">
         <div class="container">
-            <a href="[[*uri]]" class="[[*id:is=`2`:then=`active`]]">Все темы</a>
+            <a href="[[getResourceField? &id=`5` &field=`uri`]]">Все темы</a>
             [[getResources? 
                 &parents=`5` 
                 &hideContainers=`0`
                 &depth=`0`
                 &tpl=`@INLINE 
-                    <a href="[[+uri]]" class="[[*uri:is=`[[+uri]]`:then=`active`]]">[[+pagetitle]]</a>
+                    <a href="[[+uri]]">[[+pagetitle]]</a>
                 `
             ]]
         </div>
@@ -25,7 +25,6 @@
         <div class="container">
             <div class="resident-wrapper">
                 [[getResources? 
-                    &parents=`5` 
                     &hideContainers=`1`
                     &tpl=`tpl.resident.item`
                     &includeTVs=`1`

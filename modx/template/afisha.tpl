@@ -16,7 +16,7 @@
         <div class="container">
             <a href="[[*uri]]" class="[[*id:is=`2`:then=`active`]]">Все темы</a>
             [[getResources? 
-                &parents=`5` 
+                &parents=`2` 
                 &hideContainers=`0`
                 &depth=`0`
                 &tpl=`@INLINE 
