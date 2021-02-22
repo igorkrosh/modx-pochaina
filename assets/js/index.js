@@ -5,6 +5,7 @@ function Core()
     SetMobileMenu();
     SetCardSwitcher();
     SetSimpleLightBox();
+    SetAncors();
 }
 
 function SetMobileMenu()
@@ -59,4 +60,17 @@ function SwitchCard(target)
 function SetSimpleLightBox()
 {
     $('.afisha-gallery .gallery-item').simpleLightbox();
+    $('.area-item a').simpleLightbox();
+}
+
+function SetAncors()
+{
+    $('[ancore]').on('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: $($(this).attr('ancore')).offset().top - 90,
+            left: 0,
+            behavior: 'smooth'
+        });
+    })
 }

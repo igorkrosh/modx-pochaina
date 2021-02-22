@@ -1284,3 +1284,182 @@ footer a:hover
     display: flex;
     justify-content: center;
 }
+
+.history-record
+{
+    display: flex;
+    background: #fff;
+    padding: 30px;
+}
+
+.history-record .text-wrapper
+{
+    padding-left: 30px;
+}
+
+.history-record .text-wrapper .title
+{
+    font-size: 36px;
+    line-height: 43px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+
+    
+}
+
+.history-record .text-wrapper .history-desc p
+{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+
+.history-record .btn-read
+{
+    line-height: 40px;
+    height: 40px;
+    min-height: 40px;
+    font-family: bebas, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    font-weight: bold;
+    background: #0ec9ff;
+    color: #fff;
+    border-color: #0ec9ff;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.history-record .btn-read:hover
+{
+    background: #b5506d;
+}
+
+.history-record .btn-wrapper
+{
+    text-align: right;
+}
+
+.history-list-wrapper
+{
+    margin-top: -60px;
+}
+
+.page-history-record .container
+{
+    background: #fff;
+    padding: 30px;
+    margin-top: -60px;
+}
+
+.page-history-record .container h1
+{
+    font-size: 38px;
+    margin-top: 0;
+}
+
+.about-complex b
+{
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.area-item
+{
+    display: flex;
+    margin-bottom: 20px;
+    height: auto;
+    align-items: end;
+}
+
+.area-item .text
+{
+    width: 50%;
+    margin-left: auto;
+    padding: 30px;
+    background: #fff;
+
+}
+
+.area-item .text .title
+{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.area-item .text .desc
+{
+    font-family: 'Circe', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+
+.area-item .text .area-value
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.complex-map
+{
+    display: flex;
+    position: relative;
+}
+
+.complex-map img
+{
+    width: 100%;
+    height: auto;
+}
+
+.complex-map .marker
+{
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.complex-map .marker:hover
+{
+    transform: scale(1.1);
+}
+
+.area-wrapper
+{
+    margin-top: -40px;
+    position: relative;
+    z-index: 5;
+    padding: 0 40px;
+}
+
+.area-item .image
+{
+    display: flex;
+    overflow: hidden;
+}
+
+.area-item .image img
+{
+    transition: 0.3s;
+}
+
+.area-item .image:hover img
+{
+    transform: scale(1.05);
+}
