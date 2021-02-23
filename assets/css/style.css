@@ -1558,3 +1558,13 @@ footer a:hover
 {
     color: #000;
 }
+
+.page-contacts .image-wrapper
+{
+    display: flex;
+}
+
+.page-contacts .image-wrapper img
+{
+    width: 100%;
+}
