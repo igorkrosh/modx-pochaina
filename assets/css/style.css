@@ -1568,3 +1568,52 @@ footer a:hover
 {
     width: 100%;
 }
+.sitemap a
+{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sitemap .container
+{
+    padding: 40px;
+    background: #fff;
+}
+
+.sitemap a:hover
+{
+    color: #b5506d;
+}
+
+.sitemap ul
+{
+    list-style: none;
+}
+
+.sitemap li
+{
+    padding: 5px 0;
+}
+.sitemap .level1 > a
+{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.sitemap .level2 > a
+{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+
+.sitemap .level3 > a
+{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6rem;
+    color: #666;
+}

@@ -565,4 +565,9 @@
     {
         flex-direction: column;
     }
+
+    .sitemap .container
+    {
+        padding: 15px;
+    }
 }

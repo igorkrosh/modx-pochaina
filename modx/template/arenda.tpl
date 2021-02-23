@@ -46,11 +46,38 @@
                     </div>
                 </div>
             </div>
-            
-
-            
         </div>
     </section>    
+    <section class="afisha-contacts-form">
+        <div class="container">
+            <div class="contacts-form-wrapper">
+                <h1>Арендовать площадку</h1>
+                <p>Вы можете провести на Почаине свой фестиваль, концерт, опен-эйр</p>
+                <p>Опишите мероприятие в Сообщении!</p>
+                <form class="contacts-form">
+                    <div class="contacts-row">
+                        <div class="form-group">
+                            <input type="text" name="name">
+                            <label>Имя</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group textarea">
+                        <textarea type="text" name="message" rows="1"></textarea>
+                        <label>Сообщение</label>
+                    </div>
+                    <div class="form-footer">
+                        <span>После получения заявки мы свяжемся с вами для уточнения деталей</span>
+                        <button class="btn-contacts-form btn-simple black">Отправить заявку</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
     [[$footer]]
     [[$scripts]]
 </body>
