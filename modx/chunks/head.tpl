@@ -8,4 +8,6 @@
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/responce.css">
     <link rel="stylesheet" href="assets/css/lib/simpleLightbox.min.css">
+    <link rel="stylesheet" href="assets/css/lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/lib/owl.theme.default.min.css">
 </head>

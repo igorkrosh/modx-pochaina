@@ -16,9 +16,11 @@
             <div class="menu-link">
                 <a href="[[getResourceField? &id=`24` &field=`uri`]]">Контакты</a>
             </div>
+            <!--
             <div class="menu-link">
                 <a href="[[getResourceField? &id=`25` &field=`uri`]]">Венчание на Почаине</a>
             </div>
+            -->
         </div>
         <div class="footer-row">
             <div class="col"></div>

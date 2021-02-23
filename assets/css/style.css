@@ -1431,15 +1431,15 @@ footer a:hover
     line-height: 26px;
     font-size: 13px;
     font-weight: bold;
-    cursor: pointer;
+    /*cursor: pointer;*/
     transition: 0.5s;
 }
-
+/*
 .complex-map .marker:hover
 {
     transform: scale(1.1);
 }
-
+*/
 .area-wrapper
 {
     margin-top: -40px;
@@ -1462,4 +1462,99 @@ footer a:hover
 .area-item .image:hover img
 {
     transform: scale(1.05);
+}
+
+.map-wrapper
+{
+    position: relative;
+    margin-top: 40px;
+}
+
+.card-viewer .btn-switcher-wrapper
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.area-item .address
+{
+    font-family: 'Circe', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.area-item .slider
+{
+    width: 40%;
+    position: relative;
+}
+
+.area-item .slider .owl-nav
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.area-item .slider .owl-nav button.owl-prev
+{
+    height: 40px;
+    width: 40px;
+    background: url(../images/icons/arrow.svg);
+    background-size: contain;
+    margin-left: 10px;
+    font-size: 0;
+    pointer-events: all;
+}
+
+.area-item .slider .owl-nav button.owl-next
+{
+    height: 40px;
+    width: 40px;
+    background: url(../images/icons/arrow.svg);
+    background-size: contain;
+    transform: rotate(180deg);
+    margin-right: 10px;
+    font-size: 0;
+    pointer-events: all;
+}
+
+.area-item .slider .owl-dots
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.area-item .slider .owl-dots .owl-dot
+{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.area-item .slider .owl-dots .owl-dot.active
+{
+    background: none;
+    border: 1px solid #fff;
+    transform: scale(1.4);
+}
+
+.btn-switcher-wrapper.black .btn-card-switch
+{
+    color: #000;
 }

@@ -4,8 +4,10 @@ function Core()
 {
     SetMobileMenu();
     SetCardSwitcher();
-    SetSimpleLightBox();
     SetAncors();
+
+    InitSimpleLightBox();
+    InitOwl();
 }
 
 function SetMobileMenu()
@@ -57,10 +59,19 @@ function SwitchCard(target)
     })
 }
 
-function SetSimpleLightBox()
+function InitSimpleLightBox()
 {
     $('.afisha-gallery .gallery-item').simpleLightbox();
     $('.area-item a').simpleLightbox();
+}
+
+function InitOwl()
+{
+    $(".area-item .owl-carousel").owlCarousel({
+        items: 1,
+        nav: true,
+        dots: true,
+    });
 }
 
 function SetAncors()

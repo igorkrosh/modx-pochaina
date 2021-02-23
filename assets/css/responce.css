@@ -235,7 +235,26 @@
         grid-template-columns: 25% 25% 25% 25%
     }
 
+    .area-item.arenda
+    {
+        flex-direction: column;
+    }
 
+    .area-item.arenda .slider
+    {
+        width: 100%;
+    }
+
+    .area-item.arenda .image
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .area-item.arenda .text
+    {
+        width: 100%;
+    }
 
 }
 
@@ -412,6 +431,12 @@
     {
         width: 100%;
     }
+
+    .card-viewer .btn-switcher-wrapper
+    {
+        position: initial;
+        margin-top: 40px;
+    }
 }
 
 @media(max-width: 576px)
@@ -534,5 +559,10 @@
     {
         padding: 0;
         margin-top: 40px;
+    }
+
+    .card-viewer .btn-switcher-wrapper
+    {
+        flex-direction: column;
     }
 }
